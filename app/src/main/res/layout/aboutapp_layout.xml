@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/logo"/>
+
+    <TextView
+        android:text="\n\nBarter Buddy  Barter your Books, Brain &amp; B****s \n
+        \n\n
+        Have you thought what would you do with your old Boos?
+        \n\n
+        Do you think Books are not only to read, but it can be used to write also?
+        \n\n
+        A new book you can only read the thought of author, but when you red a red book you can get the insite thought of the reders too.  .
+        "
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/aboutapp_description" />
+
+
+</LinearLayout>

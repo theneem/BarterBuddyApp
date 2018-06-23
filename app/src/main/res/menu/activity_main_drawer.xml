@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_Browser"
+            android:icon="@drawable/ic_browse"
+            android:title="Browse" />
+
+        <item
+            android:id="@+id/nav_Jainism"
+            android:icon="@drawable/ic_search"
+            android:title="Search" />
+        <item
+            android:id="@+id/nav_Swaminarayan"
+            android:icon="@drawable/ic_post"
+            android:title="Post Book" />
+        <item
+            android:id="@+id/nav_Hinduism"
+            android:icon="@drawable/ic_profile"
+            android:title="My Profile" />
+        <item
+            android:id="@+id/nav_Buddhism"
+            android:icon="@drawable/ic_order"
+            android:title="My Orders" />
+
+    </group>
+
+    <item android:title="About">
+        <menu>
+            <item
+                android:id="@+id/nav_aboutapp"
+                android:icon="@drawable/ic_kmr_logo"
+                android:title="About Barterbuddy" />
+            <item
+                android:id="@+id/nav_aboutus"
+                android:icon="@drawable/ic_about_theneem"
+                android:title="About TheNeem" />
+        </menu>
+    </item>
+
+</menu>

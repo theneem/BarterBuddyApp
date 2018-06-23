@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <FrameLayout
+        android:id="@+id/contnt_frame"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+
+            <Button
+                android:id="@+id/btnJainism"
+                style="button_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/btn_education"
+                android:text=""
+                android:textColor="#ffffff" />
+
+            <Button
+                android:id="@+id/btnSwaminarayan"
+                style="button_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/btn_biogrphy"
+                android:text=""
+                android:textColor="#ffffff" />
+
+            <Button
+                android:id="@+id/btnHinduism"
+                style="button_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/btn_fiction"
+                android:text=""
+                android:textColor="#ffffff" />
+
+            <Button
+                android:id="@+id/btnBuddhism"
+                style="button_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/btn_novel"
+                android:text=""
+                android:textColor="#ffffff" />
+
+        </LinearLayout>
+
+    </FrameLayout>
+
+</LinearLayout>

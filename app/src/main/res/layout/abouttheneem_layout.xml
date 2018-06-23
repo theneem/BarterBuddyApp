@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+
+    <TextView
+    android:text="About TheNeem solutions\n"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+        android:textAlignment="center"
+    android:id="@+id/abouttheneem_header" />
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/theneemlogo"
+        android:scaleType="centerInside"
+        />
+
+        </LinearLayout>
+
+    <TextView
+        android:text="\n\nTheNeem solutions was founded in 2004 to provide technological and customize solutions to entrepreneurs and small businesses worldwide.
+        \n\nWe only intended to work as partner for long term solutions or product.
+        \n\nWe specialize in development and maintenance of Mobile and web applications.  We do work with long term custome Content management and customize bloggin."
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/abouttheneem_description" />
+
+
+    <TextView
+        android:text="\nFollowing are some of the proud Long Term Engagements and products we own."
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/abouttheneem_testimony" />
+
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+android:src="@drawable/sclogo"
+        />
+
+
+    <TextView
+        android:text="We are proude partner of Science Express Since 2012. We have been sole creative partner to build creative daily blog updates since beginnning. "
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/abouttheneem_sc" />
+
+
+</LinearLayout>
